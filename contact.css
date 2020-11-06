@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 50px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.col-md-12 h1 {
+    display: inline-block;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    color: #2a607c;
+}
+
+.header nav {
+    padding-bottom: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact {
+    background-color: whitesmoke;
+    width: 400px;
+    margin-left: 20px;
+    outline-color: lightslategray;
+    outline-style: auto;
+}
+
+.contact h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;;
+    margin-left: 15px;
+    color: #2a607c;
+}
+
+.keanu {
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.contact p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2a607c;
+    font-size: 20px;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: lightslategray;
+    padding: 30px;
+    margin-top: 170px;
+}
+
+.footer h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
